@@ -81,7 +81,7 @@ function App() {
           </div>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={2} speed={1} className="section">
+        <ParallaxLayer offset={2} speed={1} factor={2} className="section">
           <div style={{ height: 500, width: 500 }}>
             <img src="/pic-3.jpg" alt="" />
             <h1>Scroll down</h1>
